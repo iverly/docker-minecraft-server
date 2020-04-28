@@ -11,7 +11,7 @@ function isURL {
 }
 
 function isTrue {
-  local value=${1,,}
+  local value=$1
 
   result=
 
